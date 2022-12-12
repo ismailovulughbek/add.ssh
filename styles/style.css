@@ -1,0 +1,137 @@
+@import "font.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DMSans';
+}
+.container{
+    padding: 0 15px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+.nav__topic{
+    margin: 0 27px 0 9px ;
+    color:#090909;
+    font-size: 25px;
+    font-weight: 20px;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav__link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #090909;
+    margin: 0 13px;
+}
+.nav__right{
+    display: flex;
+    align-items: center;
+}
+.nav__btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #090909;
+    padding: 16px 24px 20px 24px;
+    background: #FF9C08;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* part finished */
+.main__giving{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 44px;
+}
+.giving__left{
+
+}
+.giving__title{
+    width: 604px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #090909;
+}
+.giving__text{
+    width: 597px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 16px;
+    color:  #6E6E6E;
+}
+.giving__button{
+    display: flex;
+    column-gap: 28px;
+    margin-top: 44px;
+}
+.giving__btn{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #090909;
+    background: #F0ECE8;
+    padding: 23px 38px 28px 38px;
+    border-radius: 10px;
+    transition: .5s;
+    border: none;
+    outline: none;
+}
+.giving__btn:hover{
+    background: #FF9C08;
+    cursor: pointer;
+}
+.giving__right{
+    max-width: 677px;
+    width: 100%;
+}
+.indicators{
+    display: flex;
+    justify-content: space-around;
+}
+.indicator{
+    margin: 70px;
+    text-align: center;
+    margin-top: 82px;
+    padding-bottom:75px ;
+}
+.indicator__number{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #090909;
+}
+span{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FF9C08;
+}
+.inicator__title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color:  #6E6E6E;
+}

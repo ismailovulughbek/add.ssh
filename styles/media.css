@@ -1,0 +1,40 @@
+@media(max-width:1400px){
+
+}
+@media(max-width:1200px){
+   .main__giving{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .giving__button{
+      display: flex;
+      justify-content: center;
+   }
+   .indicators{
+      margin: 35px;
+      flex-wrap: wrap;
+      text-align: center;
+   }
+
+}
+@media(max-width:992px){
+   .giving__left{
+      margin-top: 30px;
+      text-align: center;
+   }
+   .header__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .nav__left{
+    margin-top:30px;
+   }
+   .nav__right{
+    margin-top: 15px;
+   }
+}
+@media(max-width:769px){
+    
+}
